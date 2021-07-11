@@ -6,7 +6,7 @@ project = "hashicorp-waypoint-demo"
 # An application to deploy.
 app "flask" {
     labels = {
-        "service" = "flask-webapp",
+        "service" = "flask-webapp-azure",
         "env"     = "dev"
     }
     # Build specifies how an application should be deployed. In this case,

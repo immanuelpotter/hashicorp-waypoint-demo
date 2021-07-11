@@ -5,6 +5,10 @@ project = "hashicorp-waypoint-demo"
 
 # An application to deploy.
 app "flask" {
+    labels = {
+        "service" = "flask-webapp-aws",
+        "env"     = "dev"
+    }
     # Build specifies how an application should be deployed. In this case,
     # we'll build using a Dockerfile and keeping it in a local registry.
     build {
