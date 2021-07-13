@@ -16,6 +16,7 @@ app "waypoint-flask-demo-azure" {
 
     registry {
       use "docker" {
+        image = "waypointdemoregistry.azurecr.io/waypoint-demo"
         region = "eastus"
         tag   = "latest"
       }
