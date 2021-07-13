@@ -8,6 +8,9 @@ waypoint-restore.db.lock
 data.db
 .waypoint
 
+# VSCode workspace
+workspace*
+
 # C extensions
 *.so
 
